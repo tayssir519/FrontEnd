@@ -54,7 +54,7 @@ export class PaiementComponent implements AfterViewInit {
     });
   }
   openInvoice(paymentId: number) {
-  const url = `http://localhost:8080/api/payments/api/invoices/${paymentId}/download`;
+  const url = `http://localhost:8099/api/payments/api/invoices/${paymentId}/download`;
   window.open(url, '_blank'); 
 }
 
