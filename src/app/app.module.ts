@@ -9,6 +9,9 @@ import { SupprimerInvoiceComponent } from './supprimer-invoice/supprimer-invoice
 import { RecommendationListComponent } from './recommendation-list/recommendation-list.component';
 import { AiDashboardComponent } from './ai-dashboard/ai-dashboard.component';
 import { TruncatePipe } from './shared/pipes/truncate.pipe';
+import { NotificationComponent } from './notification/notification.component';
+import { NotificationTest } from './notification-test/notification-test';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +19,9 @@ import { TruncatePipe } from './shared/pipes/truncate.pipe';
     SupprimerInvoiceComponent,
     RecommendationListComponent,
     AiDashboardComponent,
-    TruncatePipe
+    TruncatePipe,
+    NotificationComponent,
+    NotificationTest
   ],
   imports: [
     BrowserModule,
